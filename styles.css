@@ -32,6 +32,7 @@ header {
   width: 49%;
   height: 475px;
   background-color: #ccc;
+  margin-bottom: 20px;
   /* margin-right: 20px; */
 }
 
@@ -43,7 +44,7 @@ header {
   background-color: #ccc;
   width: 60%;
   height: 50px;
-  margin: 40px 0 40px 290px;
+  margin: 50px 0 40px 298px;
 }
 
 .grid {
@@ -58,27 +59,28 @@ header {
   float: left;
   width: 22%;
   height: 275px;
-  margin: 20px 2% 20px 0;
+  margin: 10px 2% 20px 0;
 }
 
 .section-heading-2 {
   background-color: #ccc;
   width: 80%;
   height: 50px;
-  margin: 40px auto;
+  margin: 40px auto 50px auto;
 }
 
 .content {
   background-color: #ccc;
   padding: 50px;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-top: 50px;
 }
 
 .column {
   float: left;
   width: 31%;
   margin-right: 3.5%;
+  padding: 10px;
 }
 
 .column:last-child {
@@ -86,8 +88,9 @@ header {
 }
 .column .title {
   background: #ccc;
-  height: 100px;
-  border: solid 26px #fff;
+  height: 120px;
+  border: solid 28px #fff;
+  padding: 12px;
 }
 
 .column .card {
@@ -154,9 +157,14 @@ footer div:last-child {
   width: 50%;
   height: 475px;
   background-color: #fff;
-  border: solid 18px #ccc;
+  border: solid 36px #ccc;
 }
 
 .fbox-1 {
   float: right;
+  border-left: solid 18px #ccc;
+}
+
+.fbox-2 {
+  border-right: solid 18px #ccc;
 }
