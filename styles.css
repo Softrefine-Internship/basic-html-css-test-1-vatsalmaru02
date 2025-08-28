@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  background-color: #ccc;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.sub-bar {
+  background-color: #ccc;
+  width: 40%;
+  height: 50px;
+  margin: 0 auto 40px auto;
+}
+
+.hero {
+  width: 49%;
+  height: 475px;
+  background-color: #ccc;
+  /* margin-right: 20px; */
+}
+
+.box-1 {
+  float: right;
+}
+
+.section-heading {
+  background-color: #ccc;
+  width: 60%;
+  height: 50px;
+  margin: 40px 0 40px 290px;
+}
+
+.grid {
+  margin: 0 2%;
+  /* left: 6%; */
+}
+
+.grid div {
+  position: relative;
+  left: 3%;
+  background-color: #ccc;
+  float: left;
+  width: 22%;
+  height: 275px;
+  margin: 20px 2% 20px 0;
+}
+
+.section-heading-2 {
+  background-color: #ccc;
+  width: 80%;
+  height: 50px;
+  margin: 40px auto;
+}
+
+.content {
+  background-color: #ccc;
+  padding: 50px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  margin-right: 3.5%;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+.column .title {
+  background: #ccc;
+  height: 100px;
+  border: solid 26px #fff;
+}
+
+.column .card {
+  background: #ccc;
+  height: 260px;
+  border: solid 26px #fff;
+  border-top: none;
+}
+
+.mid-heading {
+  background: #ccc;
+  width: 200px;
+  height: 60px;
+  margin: 40px auto;
+}
+
+.stack {
+  max-width: 500px;
+  margin: 20px auto;
+}
+.stack div {
+  background: #ccc;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.stack .big {
+  height: 150px;
+}
+.stack div:last-child {
+  margin-bottom: 0;
+}
+
+.buttons {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+.buttons div {
+  display: inline-block;
+  width: 240px;
+  height: 60px;
+  background: #ccc;
+  margin: 0 10px;
+}
+
+/* footer {
+  width: 100%;
+  margin-top: 20px;
+}
+footer div {
+  float: left;
+  width: 49%;
+  height: 200px;
+  background: #fff;
+  border: solid 18px #ccc;
+   margin-right: 2%; 
+}
+
+footer div:last-child {
+  margin-right: 0;
+}  */
+
+.footer {
+  width: 50%;
+  height: 475px;
+  background-color: #fff;
+  border: solid 18px #ccc;
+}
+
+.fbox-1 {
+  float: right;
+}
