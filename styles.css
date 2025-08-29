@@ -33,7 +33,6 @@ header {
   height: 475px;
   background-color: #ccc;
   margin-bottom: 20px;
-  /* margin-right: 20px; */
 }
 
 .box-1 {
@@ -49,7 +48,6 @@ header {
 
 .grid {
   margin: 0 2%;
-  /* left: 6%; */
 }
 
 .grid div {
@@ -135,23 +133,6 @@ header {
   background: #ccc;
   margin: 0 10px;
 }
-
-/* footer {
-  width: 100%;
-  margin-top: 20px;
-}
-footer div {
-  float: left;
-  width: 49%;
-  height: 200px;
-  background: #fff;
-  border: solid 18px #ccc;
-   margin-right: 2%; 
-}
-
-footer div:last-child {
-  margin-right: 0;
-}  */
 
 .footer {
   width: 50%;
